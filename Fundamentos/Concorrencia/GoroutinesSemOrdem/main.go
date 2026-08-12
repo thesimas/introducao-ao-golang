@@ -1,0 +1,29 @@
+package main
+
+import (
+	"fmt"
+	"time"
+)
+
+func sayHello() {
+	for i := 0; i < 3; i ++ {
+		fmt.Println("Hello")
+		time.Sleep(100 * time.Millisecond)
+	}
+}
+
+func sayWorld() {
+	for i := 0; i < 3; i ++ {
+		fmt.Println("World")
+		time.Sleep(100 * time.Millisecond)
+	}
+}
+
+func main() {
+	go sayHello()
+	go sayWorld()
+	time.Sleep(1 * time.Second)
+
+	// Exemplificando que a concorrência não possui uma ordem especifica. 
+	// Neste caso está sendo exemplificado com Sleep.
+}
