@@ -1,6 +1,6 @@
 ## Introdução a Linguagem GO
 
-> Este repositório está sendo alimentado com base no curso de [Introdução a Linguagem GO da Rocketseat](https://app.rocketseat.com.br/jornada/go-curso-introdutorio/visao-geral).
+> Este repositório está sendo alimentado com base no curso de [Introdução a Linguagem GO da Rocketseat](https://app.rocketseat.com.br/jornada/go-curso-introdutorio/visao-geral), que tem o foco de nos ensinar sobre a sintaxe do Golang.
 
 ### Links com o código desenvolvido:
 
@@ -11,3 +11,4 @@
 - [Structs](Fundamentos/Structs/main.go)
 - [Funções](Fundamentos/Funcoes/main.go)
 - [Métodos](Fundamentos/Metodos/main.go)
+- [Ponteiros](Fundamentos/Ponteiros/main.go)
