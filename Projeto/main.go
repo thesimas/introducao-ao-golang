@@ -22,7 +22,7 @@ type Game struct {
 }
 
 func (game *Game) init(){
-	fmt.Println("Olá, seja Bem-Vindo ao jogo de perguntas feito em GO")
+	fmt.Println("Olá, seja Bem-Vindo ao jogo de perguntas sobre a linguagem de programação GOLANG!")
 	fmt.Println("Qual é o seu apelido?")
 	leia := bufio.NewReader(os.Stdin)
 
@@ -33,7 +33,7 @@ func (game *Game) init(){
 	}
 
 	game.Nome = strings.TrimSpace(nome);
-	fmt.Printf("Vamos ao jogo %s!\n", game.Nome)
+	fmt.Printf("\nVamos ao jogo %s!\n", game.Nome)
 }
 
 func (game *Game) lendoCSV(){
@@ -105,12 +105,13 @@ func (game *Game) run(){
 		
 			break
 		}
+		fmt.Println()
 
 		if  questao.Resposta == reposta {
-			fmt.Println("\033[32m Reposta Correta! \033[0m")
+			fmt.Println("\033[32mReposta Correta! \033[0m")
 			game.Pontos += 10
 		}else {
-			fmt.Println("\033[31m Reposta Incorreta! \033[0m")
+			fmt.Println("\033[31mReposta Incorreta! \033[0m")
 			
 		}
 		fmt.Println()
