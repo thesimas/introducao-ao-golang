@@ -1,0 +1,8 @@
+Pergunta,Opcao1,Opcao2,Opcao3,Opcao4,Resposta
+Qual é a palavra-chave usada para iniciar uma goroutine em Go?,thread,go,async,goroutine,2
+Como você declara uma variável e a inicializa com inferência de tipo (short variable declaration)?,var x = 10,int x = 10,x := 10,x -> 10,3
+Qual estrutura de dados nativa é usada para armazenar pares de chave-valor em Go?,map,dict,hash,set,1
+O que o comando 'go build' faz?,Formata o código,Executa o programa,Baixa dependências,Compila o código,4
+Qual função é o ponto de entrada (entry point) de um programa executável em Go?,init(),start(),run(),main(),4
+Qual é o valor zero (zero value) de um ponteiro em Go?,0,nil,null,undefined,2
+Como a linguagem Go lida com herança orientada a objetos?,Usa a palavra-chave extends,Herda através de interfaces,Go não possui herança tradicional (usa composição),Usa classes abstratas,3
