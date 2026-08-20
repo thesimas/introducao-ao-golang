@@ -21,7 +21,7 @@
 
 
 > ### **Projeto - Quiz em GO** 
-> **[Jogo de Perguntas e Repostas](main.go)** - Desenvolvido para jogar no terminal, contém soma de pontuação para perguntas acertadas, interação com usúario e manipulação de strings. 
+> **[Jogo de Perguntas e Repostas](Projeto/main.go)** - Desenvolvido para jogar no terminal, contém soma de pontuação para perguntas acertadas, interação com usúario e manipulação de strings. 
 
 
 ## **Certificado de Conclusão do Curso de Introdução ao GO da Rocketseat**
